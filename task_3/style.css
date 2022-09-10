@@ -1,0 +1,33 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell {
+    height: 60px;
+    width: 60px;
+    border: 1px solid grey;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.blackcell {
+    background-color: #707070;
+}
+
+.whitecell {
+    background-color: #CCCCDD;
+}
+
+.char-cell{
+    text-align: center;
+    font-size: 16pt;
+}
+
+.reverse{
+    transform: rotate(180deg);
+}
